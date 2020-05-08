@@ -1,7 +1,6 @@
 resource "aws_security_group" "asg_sec_group" {
   name        = "asg_sec_group"
   description = "Allow TLS inbound traffic"
-  
 
   ingress {
     description = "TLS from VPC"
